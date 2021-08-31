@@ -7,8 +7,7 @@ React search component make with SASS & react-icons-kit package
 | placeholder | String | No |
 | searchLoading | Boolean | Yes |
 | search | Function | Yes |
-| suggestion | Function return an Object like as
-         data = {
+| suggestion | Function return an Object like as data = {
             results: [],
             message: null
         } | Yes |
