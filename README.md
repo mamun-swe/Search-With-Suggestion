@@ -10,9 +10,11 @@ React search component make with SASS & react-icons-kit package
 | suggestion    | Function return an Object. | Yes |                  
 | clear | Function call re-fetch data. | Yes |
 
-### Returned object from suggestion props are given below:
+Returned object from suggestion props are given below:
 
+```
 const data = {
     results: [],
     message: null
 }
+```
