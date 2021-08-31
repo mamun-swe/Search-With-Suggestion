@@ -7,12 +7,12 @@ React search component make with SASS & react-icons-kit package
 | placeholder   | String   | No  |
 | searchLoading | Boolean  | Yes |
 | search        | Function | Yes |
-| suggestion    | Function return an Object like as | Yes |
-        const data = {
-            results: [],
-            message: null
-        } 
-        
-| ------------- | -------- | -------- |                  
+| suggestion    | Function return an Object. | Yes |                  
 | clear | Function call re-fetch data. | Yes |
 
+### Returned object from suggestion props are given below:
+
+const data = {
+    results: [],
+    message: null
+}
